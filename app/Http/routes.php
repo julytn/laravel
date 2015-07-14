@@ -15,11 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function () {
 
-
-    return 'Test page';
-
-
-});
-
+/*
+|--------------------------------------------------------------------------
+| Test Controller
+|--------------------------------------------------------------------------
+*/
+Route::get('test1', 'TestController@test1');
