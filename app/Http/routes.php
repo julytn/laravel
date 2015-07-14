@@ -11,14 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-
-/*
-|--------------------------------------------------------------------------
-| Test Controller
-|--------------------------------------------------------------------------
-*/
-Route::get('test1', 'TestController@test1');
+Route::get('about', 'PagesController@about');
